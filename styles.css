@@ -53,7 +53,7 @@ table {
   border: 1px solid yellowgreen;
   width: 100%;
   display: flex;
-  
+  background-color: white;
 }
 
 #header-flexbox {
@@ -68,14 +68,22 @@ table {
 #nytlogocont {
   border: 1px solid aqua;
   justify-content: center;
+  align-items: center;
 }
 
 #nytlogo {
   width: 15%;  
   border: 1px solid blueviolet;
   justify-content: center;
+  align-items: center;
 }
 
 #buttons-navbarcont {
   border: 1px solid brown;
+}
+
+/* Header */
+
+header {
+    padding-top: 40px;
 }
