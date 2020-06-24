@@ -47,3 +47,35 @@ table {
   border-spacing: 0;
 }
 
+/* Navigation bar */
+#navbar {
+  position: fixed;
+  border: 1px solid yellowgreen;
+  width: 100%;
+  display: flex;
+  
+}
+
+#header-flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+#fficons {
+  border: 1px solid lightcoral;
+}
+
+#nytlogocont {
+  border: 1px solid aqua;
+  justify-content: center;
+}
+
+#nytlogo {
+  width: 15%;  
+  border: 1px solid blueviolet;
+  justify-content: center;
+}
+
+#buttons-navbarcont {
+  border: 1px solid brown;
+}
