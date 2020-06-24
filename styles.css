@@ -104,28 +104,43 @@ header {
   width: 40%;
   padding-left: 30%;
   padding-right: 30%;
-  border: 1px solid darkred;
+  /* border: 1px solid darkred; */
 }
 
 #title {
   display: inline-block;
-  border: 1px solid darkorchid;
+  /* border: 1px solid darkorchid; */
   font-size: 48px;
 }
 
 /* Article */
 
-.artpics {
-  width: 70%;
-  padding: 0 15% 0 15%;
+.artpics1 {
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  border: 1px solid firebrick;
 }
 
-/* #one {
-  width:150px;
-} */
+#one {
+  grid-column-start: 2;
+  max-width: 100%;
+  height: auto;
+}
+
+#onefig {  
+  grid-column-start: 2;
+}
+
+#oneauth {
+  grid-column-start: 2;
+  display: inline-block;
+}
+
+.artcont {
+  display: grid;
+  grid-template-columns: 27.5% 45% 27.5%
+}
 
 .article {
-  width: 40%;
-  border: 1px solid cadetblue;
-  justify-content: center;
+  grid-column-start: 2;
 }
