@@ -162,8 +162,16 @@ header {
   justify-content: space-between;
 }
 
-#dsdate
+/* #dsdate
 #dsbtns
+
+/* #ffslist {
+} */
+
+/* .ffstyling {
+  display: inline;
+  border: 1px solid rebeccapurple;
+} */ 
 
 #clear {
   clear: both;
@@ -255,9 +263,93 @@ header {
   grid-column-start: 2;
 }
 
+aside {
+  width: 15%;
+  padding-right: 30px;
+  float: right;
+}
+.asideimg {
+  width: 75px; 
+}
+
+#thanks {
+  clear: both;
+}
+
+.nytline {
+  size: 10%;
+}
+
 .videochamp {
   min-width: 100%; 
   min-height: 100%;
   width: auto; 
   height: auto;
+}
+
+#afterart {
+  display: grid;
+  grid-template-areas: "a1 . b1 . c1 . d"
+                       ". . . . . . d" 
+                       "a2 . b2 . c2 . d"
+                       ". . . . . . d" 
+                       "a3 . b3 . c3 . d"
+                       ". . . . . . d" 
+                       "a4 . b4 . c4 . d"
+                       ". . . . . . d" 
+                       "a5 . b5 . c5 . d"
+                       ". . . . . . d" 
+                       "a6 . b6 . c6 . d"
+                       ". . . . . . d" 
+                       "a7 . b7 . c7 . d"
+                       ". . . . . . d" 
+                       "a8 . b8 . c8 . d";
+  grid-template-columns: 25% 5px 25% 5px 25% 30px 25%;
+  /* padding-left: 30px;
+  padding-right: 30px; */
+}
+
+#gaai1 {
+  grid-area: a1;
+  width: 100%;
+}
+
+#gaai2 {
+  grid-area: b1;
+  width: 100%;
+}
+#gaai3 {
+  grid-area: c1;
+  width: 100%;
+}
+#gaai4 {
+  grid-area: a3;
+  width: 100%;
+}
+#gaai5 {
+  grid-area: b3;
+  width: 100%;
+}
+#gaai6 {
+  grid-area: c3;
+  width: 100%;
+}
+#gaai7 {
+  grid-area: a5;
+  width: 100%;
+}
+#gaai8 {
+  grid-area: b5;
+  width: 100%;
+}
+#gaai9 {
+  grid-area: c5;
+  width: 100%;
+}
+
+
+
+#popular {
+  /* display: grid; */
+  grid-area: d;
 }
