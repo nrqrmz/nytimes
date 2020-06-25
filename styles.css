@@ -113,7 +113,7 @@ header {
   font-size: 48px;
 }
 
-/* Article */
+/* +++ Article +++ */
 
 .artpics1 {
   display: grid;
@@ -143,4 +143,85 @@ header {
 
 .article {
   grid-column-start: 2;
+}
+
+.artpics2 {
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  border: 1px solid firebrick;
+}
+
+#inflatt {
+  grid-column-start: 2;
+  font-size: 25px;
+}
+
+#inflagrid {
+  grid-column-start: 2;
+  display: grid;
+  grid-template-areas:"im11 im12 im13 im14"
+                      "par11 par12 par13 par14"
+                      "im21 im22 im23 im24"
+                      "par21 par22 par23 par24";
+}
+
+#inflation {
+  grid-column-start: 2;
+  grid-area: 1 / 1 / 5 / 5;
+  max-width: 100%;
+}
+
+#inflationfig {  
+  grid-column-start: 2;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#par11 {
+  grid-area: par11;
+  font-size: 15px; 
+}
+
+#par12 {
+  grid-area: par12;
+  font-size: 15px;
+}
+
+#par13 {
+  grid-area: par13;
+  font-size: 15px;
+}
+
+#par14 {
+  grid-area: par14;
+  font-size: 15px;
+}
+
+#par21 {
+  grid-area: par21;
+  font-size: 15px;
+}
+
+#par22 {
+  grid-area: par22;
+  font-size: 15px;
+}
+
+#par23 {
+  grid-area: par23;
+  font-size: 15px;
+}
+
+#par24 {
+  grid-area: par24;
+  font-size: 15px;
+}
+
+.videochamp {
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
 }
