@@ -47,6 +47,15 @@ table {
   border-spacing: 0;
 }
 
+p {
+  font-size: 22px;
+}
+
+small {
+  font-size: 16px;
+  color: #888;
+}
+
 /* Navigation bar */
 #navbar {
   position: fixed;
@@ -118,7 +127,6 @@ header {
 .artpics1 {
   display: grid;
   grid-template-columns: 15% 70% 15%;
-  border: 1px solid firebrick;
 }
 
 #one {
@@ -129,11 +137,36 @@ header {
 
 #onefig {  
   grid-column-start: 2;
+  color: #666;
 }
 
 #oneauth {
   grid-column-start: 2;
-  display: inline-block;
+  display: inline-flex;
+}
+
+#dennis {
+  color: #333;
+}
+
+#denniso {
+  color: #333;
+}
+
+#denniso:hover {
+  text-decoration: none;
+}
+
+#datsoc {
+  display: flex;
+  justify-content: space-between;
+}
+
+#dsdate
+#dsbtns
+
+#clear {
+  clear: both;
 }
 
 .artcont {
@@ -148,7 +181,6 @@ header {
 .artpics2 {
   display: grid;
   grid-template-columns: 15% 70% 15%;
-  border: 1px solid firebrick;
 }
 
 #inflatt {
@@ -217,6 +249,10 @@ header {
 #par24 {
   grid-area: par24;
   font-size: 15px;
+}
+
+#inflafoot {
+  grid-column-start: 2;
 }
 
 .videochamp {
