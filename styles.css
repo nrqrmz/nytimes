@@ -59,7 +59,6 @@ small {
 /* Navigation bar */
 #navbar {
   position: fixed;
-  border: 1px solid yellowgreen;
   width: 100%;
   display: flex;
   background-color: white;
@@ -352,4 +351,60 @@ aside {
 #popular {
   /* display: grid; */
   grid-area: d;
+}
+
+#gohome {
+  color: #567B95;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+#footergrid {
+  display: grid;
+  grid-template-columns: 20% 16% 16% 16% 16% 16%;
+}
+
+#footergrid > section > ul > li > a {
+  color: #474747;
+  text-decoration: none;
+}
+
+#footergrid > section > ul > li > a:hover {
+  text-decoration: underline;
+}
+
+#foot1 {
+  grid-column-start: 1;
+}
+
+#foot2 {
+  grid-column-start: 2;
+}
+
+#foot3 {
+  grid-column-start: 3;
+}
+
+#foot4 {
+  grid-column-start: 4;
+}
+
+#foot5 {
+  grid-column-start: 5;
+}
+
+#foot6 {
+  grid-column-start: 6;
+}
+
+#ulfl {
+  display: flex;
+}
+
+#expand {
+  clear: both;
+  position: fixed;
+  background-color: #fff;
+  border-top: 1px solid #333;
+  width: 100%;
 }
