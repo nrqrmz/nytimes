@@ -70,13 +70,11 @@ small {
 }
 
 #fficons {
-  border: 1px solid lightcoral;
   width: 300px;
   align-self: center;
 }
 
 #nytlogocont {
-  border: 1px solid aqua;
   justify-content: center;
   align-items: center;
   align-self: center;
@@ -84,14 +82,12 @@ small {
 
 #nytlogo {
   width: 15%;  
-  border: 1px solid blueviolet;
   justify-content: center;
   align-items: center;
   align-self: center;
 }
 
 #buttons-navbarcont {
-  border: 1px solid brown;
   width: 300px;
 }
 
@@ -309,48 +305,68 @@ aside {
 }
 
 #gaai1 {
-  grid-area: a1;
+  /* grid-area: a1; */
   width: 100%;
 }
 
 #gaai2 {
-  grid-area: b1;
+  /* grid-area: b1; */
   width: 100%;
 }
 #gaai3 {
-  grid-area: c1;
+  /* grid-area: c1; */
   width: 100%;
 }
 #gaai4 {
-  grid-area: a3;
+  /* grid-area: a3; */
   width: 100%;
 }
 #gaai5 {
-  grid-area: b3;
+  /* grid-area: b3; */
   width: 100%;
 }
 #gaai6 {
-  grid-area: c3;
+  /* grid-area: c3; */
   width: 100%;
 }
 #gaai7 {
-  grid-area: a5;
+  /* grid-area: a5; */
   width: 100%;
 }
 #gaai8 {
-  grid-area: b5;
+  /* grid-area: b5; */
   width: 100%;
 }
 #gaai9 {
-  grid-area: c5;
+  /* grid-area: c5; */
   width: 100%;
 }
 
+.aftergridlinks {
+  color: #121212;
+  text-decoration: none;
+}
 
+.aftergridlinks:hover {
+  color: #797979;
+  text-decoration: none;
+}
 
 #popular {
   /* display: grid; */
   grid-area: d;
+}
+
+#footlogohome {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+
+#lastlogo {
+  width: 15%;
 }
 
 #gohome {
@@ -362,6 +378,8 @@ aside {
 #footergrid {
   display: grid;
   grid-template-columns: 20% 16% 16% 16% 16% 16%;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
 #footergrid > section > ul > li > a {
@@ -399,7 +417,23 @@ aside {
 
 #ulfl {
   display: flex;
+  justify-content: space-between;
+  padding-right: 100px;
+  padding-left: 100px;
 }
+
+#ulfl > li > a {
+  color: #666;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+#ulfl > li > a:hover {
+  color: #888;
+  text-decoration: #888;
+  font-size: 12px;
+}
+
 
 #expand {
   clear: both;
