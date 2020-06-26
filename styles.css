@@ -121,6 +121,11 @@ header {
 
 /* +++ Article +++ */
 
+.titlestyle {
+  font-weight: bold;
+  font-size: 30px;
+}
+
 .artpics1 {
   display: grid;
   grid-template-columns: 15% 70% 15%;
@@ -181,6 +186,15 @@ header {
 
 .article {
   grid-column-start: 2;
+}
+
+.article > p > a {
+  color: #326891;
+  text-decoration: underline;
+}
+
+.article > p > a:hover {
+  text-decoration: none;
 }
 
 .artpics2 {
@@ -270,10 +284,17 @@ header {
   font-size: 24px;
 }
 
-.asidebox {
-  padding-right: 30px;
-  float: right;
+/* #asidebox {
+  display: grid;
+  grid-template-columns: 27.5% 45% 27.5%;
 }
+
+#asideitems {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  padding-left: 20px;
+  padding-right: 20px;
+} */ 
 
 .asideimg {
   width: 75px; 
@@ -301,6 +322,20 @@ header {
   min-height: 100%;
   width: auto; 
   height: auto;
+}
+
+#lastartlinkscont {
+  text-align: center;
+}
+
+.lastartlinks {
+  color: #888;
+  text-decoration: none;
+}
+
+.lastartlinks:hover {
+  color: #888;
+  text-decoration: underline;
 }
 
 #afterart {
