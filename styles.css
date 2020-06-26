@@ -258,11 +258,21 @@ header {
   grid-column-start: 2;
 }
 
-aside {
-  width: 15%;
+#thanks {
+  text-align: center;
+}
+
+#thanks > a {
+  color: #326891;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.asidebox {
   padding-right: 30px;
   float: right;
 }
+
 .asideimg {
   width: 75px; 
 }
