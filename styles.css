@@ -308,14 +308,15 @@ header {
   size: 10%;
 }
 
-/* #telescope-cont {
-  display: grid;
-  grid-template-columns: 20% 60% 20%
+#telescope-cont {
+  /* display: grid;
+  grid-template-columns: 20% 60% 20% */
+  text-align: center;
 }
-#telescope {
-  grid-column-start: 2;
-  width: 100%;
-} */
+
+#telescope {  
+  width: 70%;
+}
 
 .videochamp {
   min-width: 100%; 
