@@ -181,7 +181,8 @@ header {
 
 .artcont {
   display: grid;
-  grid-template-columns: 27.5% 45% 27.5%
+  grid-template-columns: 27.5% 45% 27.5%;
+  text-align: left;  
 }
 
 .article {
