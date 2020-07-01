@@ -599,6 +599,6 @@ header {
   flex: 0 1 auto;
 }
 
-#version {
+.version {
   font-size: 18px;
 }
