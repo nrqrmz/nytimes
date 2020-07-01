@@ -501,6 +501,19 @@ header {
   height: 15px;
 }
 
+#ulfl {
+  padding-bottom: 50px;
+}
+
+#footergrid > div > ul > li > a {
+  color: #474747;
+  text-decoration: none;
+}
+
+#footergrid > div > ul > li > a:hover {
+  text-decoration: underline;
+}
+
 #ulfl > li > a {
   color: #666;
   text-decoration: none;
@@ -511,15 +524,6 @@ header {
   color: #888;
   text-decoration: #888;
   font-size: 12px;
-}
-
-#footergrid > section > ul > li > a {
-  color: #474747;
-  text-decoration: none;
-}
-
-#footergrid > section > ul > li > a:hover {
-  text-decoration: underline;
 }
 
 #foot1 {
