@@ -369,7 +369,7 @@ header {
 #afterart {
   display: grid;
   grid-template-columns: 75% 25%;
-  grid-template-areas: 
+  grid-template-areas:
     "a b"
     "c b";
   padding-left: 30px;
@@ -379,7 +379,7 @@ header {
 #gridafterart1 {
   grid-column-start: 1;
   display: grid;
-  grid-template-areas: 
+  grid-template-areas:
     "l l l"
     "h h h"
     "a b c"
@@ -400,7 +400,7 @@ header {
 #gridafterart2 {
   grid-column-start: 1;
   display: grid;
-  grid-template-areas: 
+  grid-template-areas:
     "l l l"
     "h h h"
     "a b c";
