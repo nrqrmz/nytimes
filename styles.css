@@ -505,12 +505,13 @@ header {
   padding-bottom: 50px;
 }
 
-#footergrid > div > ul > li > a {
+.columnlinks {
   color: #474747;
   text-decoration: none;
 }
 
-#footergrid > div > ul > li > a:hover {
+.columnlinks:hover {
+  color: #474747;
   text-decoration: underline;
 }
 
