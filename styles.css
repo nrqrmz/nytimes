@@ -208,7 +208,6 @@ header {
 }
 
 #inflation {
-  grid-column-start: 2;
   grid-area: 1 / 1 / 5 / 5;
   max-width: 100%;
 }
