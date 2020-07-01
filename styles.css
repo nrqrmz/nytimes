@@ -21,19 +21,24 @@ body {
   line-height: 1;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
   content: '';
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -77,7 +82,7 @@ small {
 }
 
 #nytlogo {
-  width: 15%;  
+  width: 15%;
   justify-content: center;
   align-items: center;
   align-self: center;
@@ -89,7 +94,7 @@ small {
 }
 
 button {
-  background-color: rgb(86,123,149);
+  background-color: rgb(86, 123, 149);
   border: none;
   color: white;
   display: inline-block;
@@ -131,7 +136,7 @@ header {
   height: auto;
 }
 
-#onefig {  
+#onefig {
   grid-column-start: 2;
   color: #666;
 }
@@ -165,7 +170,7 @@ header {
 .artcont {
   display: grid;
   grid-template-columns: 27.5% 45% 27.5%;
-  text-align: left;  
+  text-align: left;
   clear: both;
 }
 
@@ -195,10 +200,11 @@ header {
 #inflagrid {
   grid-column-start: 2;
   display: grid;
-  grid-template-areas:"im11 im12 im13 im14"
-                      "par11 par12 par13 par14"
-                      "im21 im22 im23 im24"
-                      "par21 par22 par23 par24";
+  grid-template-areas:
+    "im11 im12 im13 im14"
+    "par11 par12 par13 par14"
+    "im21 im22 im23 im24"
+    "par21 par22 par23 par24";
 }
 
 #inflation {
@@ -207,7 +213,7 @@ header {
   max-width: 100%;
 }
 
-#inflationfig {  
+#inflationfig {
   grid-column-start: 2;
 }
 
@@ -217,7 +223,7 @@ header {
 
 #par11 {
   grid-area: par11;
-  font-size: 15px; 
+  font-size: 15px;
 }
 
 #par12 {
@@ -281,6 +287,7 @@ header {
 
 #thanks {
   text-align: center;
+  clear: both;
 }
 
 #thanks > a {
@@ -306,7 +313,7 @@ header {
 
 .asideimg {
   width: 75px;
-  float: left; 
+  float: left;
 }
 
 .asidelink {
@@ -320,10 +327,6 @@ header {
   text-decoration: underline;
 }
 
-#thanks {
-  clear: both;
-}
-
 .nytline {
   size: 10%;
 }
@@ -332,13 +335,13 @@ header {
   text-align: center;
 }
 
-#telescope {  
+#telescope {
   width: 70%;
 }
 
 .videochamp {
-  min-width: 100%; 
-  width: auto; 
+  min-width: 100%;
+  width: auto;
   border: none;
 }
 
@@ -366,8 +369,9 @@ header {
 #afterart {
   display: grid;
   grid-template-columns: 75% 25%;
-  grid-template-areas: "a b"
-                       "c b";
+  grid-template-areas: 
+    "a b"
+    "c b";
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -375,10 +379,11 @@ header {
 #gridafterart1 {
   grid-column-start: 1;
   display: grid;
-  grid-template-areas: "l l l"
-                       "h h h"
-                       "a b c"
-                       "d f g";
+  grid-template-areas: 
+    "l l l"
+    "h h h"
+    "a b c"
+    "d f g";
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-gap: 5px;
@@ -395,9 +400,10 @@ header {
 #gridafterart2 {
   grid-column-start: 1;
   display: grid;
-  grid-template-areas: "l l l"
-                       "h h h"
-                       "a b c";
+  grid-template-areas: 
+    "l l l"
+    "h h h"
+    "a b c";
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-gap: 5px;
@@ -411,49 +417,39 @@ header {
   grid-area: l;
 }
 
-#gridtitle1 {
-  grid-area: h;
-}
-
-#gridafterart1line {
-  grid-area: l;
-}
-
-
 #gaai1 {
   width: 100%;
 }
 
 #gaai2 {
- 
   width: 100%;
 }
-#gaai3 {
- 
-  width: 100%;
-}
-#gaai4 {
 
+#gaai3 {
   width: 100%;
 }
+
+#gaai4 {
+  width: 100%;
+}
+
 #gaai5 {
-  
   width: 100%;
 }
+
 #gaai6 {
- 
   width: 100%;
 }
+
 #gaai7 {
- 
   width: 100%;
 }
+
 #gaai8 {
-  
   width: 100%;
 }
+
 #gaai9 {
- 
   width: 100%;
 }
 
@@ -482,13 +478,12 @@ header {
   padding-left: 50px;
 }
 
-
 #lastlogo {
   width: 15%;
 }
 
 #gohome {
-  color: #567B95;
+  color: #567b95;
   text-decoration: none;
   font-weight: 700;
 }
@@ -504,6 +499,18 @@ header {
 .sublogos {
   width: 15px;
   height: 15px;
+}
+
+#ulfl > li > a {
+  color: #666;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+#ulfl > li > a:hover {
+  color: #888;
+  text-decoration: #888;
+  font-size: 12px;
 }
 
 #footergrid > section > ul > li > a {
@@ -544,18 +551,6 @@ header {
   justify-content: space-between;
   padding-right: 100px;
   padding-left: 100px;
-}
-
-#ulfl > li > a {
-  color: #666;
-  text-decoration: none;
-  font-size: 12px;
-}
-
-#ulfl > li > a:hover {
-  color: #888;
-  text-decoration: #888;
-  font-size: 12px;
 }
 
 #expand {
