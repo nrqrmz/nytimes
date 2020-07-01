@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <meta charset="UTF-8">  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <title>New York Times Clone</title>
     <link rel="icon" href="assets/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
@@ -22,8 +23,8 @@
         </div>
         <div id="buttons-navbarcont">
           <div class="buttons-navbar">
-              <button>SUBSCRIBE NOW</button>
-              <button>LOG IN</button>
+              <button type="button">SUBSCRIBE NOW</button>
+              <button type="button">LOG IN</button>
           </div>    
         </div>
       </div>
@@ -35,8 +36,8 @@
     <br>
     <div class="artpics1">
       <img id="one" src="assets/18cosmos-superJumbo.jpg" alt="">
-      <figcaption id="onefig">Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago. 
-      </figcaption>
+      <div id="onefig">Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago. 
+      </div>
       <small id="oneauth">Rick Friedman for The New York Times</small>
     </div>
     <br>
@@ -100,18 +101,18 @@
     </div>
     <aside id="asidebox">
       <div id="asideboxmt">
-        <section id="asideitems">
+        <div id="asideitems">
           <header class="bold">Editors’ Picks</header>
           <hr>
           <br>
-          <img class="asideimg" src="assets/aside1-28Mag-LOR-01-square640.jpg">
+          <img class="asideimg" src="assets/aside1-28Mag-LOR-01-square640.jpg" alt="time managment">
           <div>
             <a class="asidelink" href="https://www.nytimes.com/2020/06/23/magazine/pomodoro-technique.html?action=click&algo=top_conversion&block=editors_picks_recirc&fellback=true&imp_id=154756991&impression_id=591308814&index=0&pgtype=Article&region=ccolumn">This Time-Management Trick Changed My Whole Relationship With Time</a>
           </div>
           <br>
           <br>
           <br>
-          <img class="asideimg" src="assets/aside2-Paterniti1-square640.jpg">
+          <img class="asideimg" src="assets/aside2-Paterniti1-square640.jpg" alt="poker champ">
           <div>
             <a class="asidelink" href="https://www.nytimes.com/2020/06/23/books/review/maria-konnikova-the-biggest-bluff.html?action=click&algo=top_conversion&block=editors_picks_recirc&fellback=true&imp_id=570030606&impression_id=511186152&index=1&pgtype=Article&region=ccolumn">How a Writer With a Ph.D. in Psychology Became a Poker Champ</a>
           </div>
@@ -119,11 +120,11 @@
           <br>
           <br>
           <br>
-          <img class="asideimg" src="assets/aside3-28mag-talk-square640-v2.jpg">
+          <img class="asideimg" src="assets/aside3-28mag-talk-square640-v2.jpg" alt="Chicago">
           <div>
             <a class="asidelink" href="https://www.nytimes.com/interactive/2020/06/22/magazine/lori-lightfoot-chicago-police.html?action=click&algo=top_conversion&block=editors_picks_recirc&fellback=true&imp_id=978797241&impression_id=710657313&index=2&pgtype=Article&region=ccolumn&action=click&module=editorContent&pgtype=Article&region=CompanionColumn&contentCollection=Trending">Lori Lightfoot, Mayor of Chicago, on Who’s Hurt by Defunding Police</a>        
           </div>
-        </section>  
+        </div>  
       </div>       
     </aside>
     <div class="floatingarticle">
@@ -231,7 +232,7 @@
           Andrei Linde of Stanford, a prolific theorist who first described the most popular variant of inflation, known as chaotic inflation, in 1983, was about to go on vacation in the Caribbean last week when Chao-Lin Kuo, a Stanford colleague and a member of Dr. Kovac’s team, <a href="https://www.youtube.com/watch?v=ZlfIVEy_YOA">knocked on his door with a bottle of Champagne</a> to tell him the news.
         </p>
         <br>
-        <iframe class="videochamp" src="https://www.youtube.com/embed/ZlfIVEy_YOA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="videochamp" src="https://www.youtube.com/embed/ZlfIVEy_YOA" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <br>
         <figcaption>Stanford Professor Andrei Linde celebrates physics breakthrough</figcaption>
         <small>Video by StanfordUniversity</small>
@@ -295,14 +296,14 @@
     </div>   
     <br>
     <br>
-      <div" id="telescope-cont">
-        <div id="telescope-wrapper">
-          <img id="telescope" src="assets/18cosmos-2-jumbo.jpg">
-          <figcaption>The Bicep2 telescope, in the foreground, was used to detect the faint spiraling gravity patterns — 
-          <br> the signature of a universe being wrenched violently apart at its birth.</figcaption>
-          <small>Steffen Richter/Associated Press</small>
-        </div>      
-      </div>
+    <div id="telescope-cont">
+      <div id="telescope-wrapper">
+        <img id="telescope" src="assets/18cosmos-2-jumbo.jpg">
+        <figcaption>The Bicep2 telescope, in the foreground, was used to detect the faint spiraling gravity patterns — 
+        <br> the signature of a universe being wrenched violently apart at its birth.</figcaption>
+        <small>Steffen Richter/Associated Press</small>
+      </div>      
+    </div>
     <br>
     <div class="artcont">
       <div class="article">     
@@ -390,7 +391,7 @@
         
         <br> 
         <br>                
-        <button>READ 615 COMMENTS</button>
+        <button type="button">READ 615 COMMENTS</button>
         <br>
         <br>
         <div>
@@ -479,7 +480,7 @@
         <hr class="popline">
         <a class="aftergridlinks" href="https://www.nytimes.com/2020/06/23/us/politics/mary-trump-book-court.html?action=click&algo=top_conversion&block=trending_recirc&fellback=false&imp_id=319739060&impression_id=212864334&index=3&pgtype=Article&region=footer">Trump Family Asks Court to Stop Publication of Tell-All by President’s Niece</a>
         <hr class="popline">
-        <a class="aftergridlinks"href="https://www.nytimes.com/2020/06/23/nyregion/hot-car-death-twins-bronx.html?action=click&algo=top_conversion&block=trending_recirc&fellback=false&imp_id=65419373&impression_id=850356659&index=4&pgtype=Article&region=footer">Father Whose Infant Twins Died in Hot Car Avoids Prison</a>
+        <a class="aftergridlinks" href="https://www.nytimes.com/2020/06/23/nyregion/hot-car-death-twins-bronx.html?action=click&algo=top_conversion&block=trending_recirc&fellback=false&imp_id=65419373&impression_id=850356659&index=4&pgtype=Article&region=footer">Father Whose Infant Twins Died in Hot Car Avoids Prison</a>
         <hr class="popline">
         <a class="aftergridlinks" href="https://www.nytimes.com/2020/06/23/opinion/maga-trump-fake-news.html?action=click&algo=top_conversion&block=trending_recirc&fellback=false&imp_id=672600903&impression_id=247356869&index=5&pgtype=Article&region=footer">Opinion: The Boy Who Cried Fake News</a>
         <hr class="popline">
@@ -492,141 +493,140 @@
         <a class="aftergridlinks" href="https://www.nytimes.com/2020/06/23/us/politics/fauci-congress-coronavirus.html?action=click&algo=top_conversion&block=trending_recirc&fellback=false&imp_id=429192626&impression_id=734892205&index=9&pgtype=Article&region=footer">Fauci, Citing ‘Disturbing Surge,’ Tells Congress the Virus Is Not Under Control</a>        
       </div>
     </div>
+    <div>
+      <hr>
+      <div id="footlogohome">
+        <div id="flh1">
+          <a href="https://www.nytimes.com/">
+            <img id="lastlogo" src="assets/new_york-times.png">
+          </a>  
+        </div>
+        <div id="flh2">
+          <a id="gohome" href="https://www.nytimes.com/">Go to Home Page >></a>
+        </div>
+      </div>
+      <div id="footergrid">
+        <section id="foot1">
+          <ul>
+            <li class="bold">NEWS</li>
+            <li><a href="https://www.nytimes.com/">Home Page</a></li>
+            <li><a href="https://www.nytimes.com/section/world">World</a></li>
+            <li><a href="https://www.nytimes.com/section/us">U.S.</a></li>
+            <li><a href="https://www.nytimes.com/section/politics">Politics</a></li>
+            <li><a href="https://www.nytimes.com/news-event/2020-election">Election 2020</a></li>
+            <li><a href="https://www.nytimes.com/section/nyregion">New York</a></li>
+            <li><a href="https://www.nytimes.com/section/business">Business</a></li>
+            <li><a href="https://www.nytimes.com/section/technology">Tech</a></li>
+            <li><a href="https://www.nytimes.com/section/science">Science</a></li>
+            <li><a href="https://www.nytimes.com/section/sports">Sports</a></li>
+            <li><a href="https://www.nytimes.com/section/obituaries">Obituaries</a></li>
+            <li><a href="https://www.nytimes.com/section/todayspaper">Today's Paper</a></li>
+            <li><a href="https://www.nytimes.com/section/corrections">Corrections</a></li>          
+          </ul>
+        </section>
+        <section id="foot2">
+          <ul>
+            <li class="bold">OPINION</li>
+            <li><a href="https://www.nytimes.com/section/opinion">Today's Opinion</a></li>
+            <li><a href="https://www.nytimes.com/section/opinion/columnists">Op-Ed Columnists</a></li>
+            <li><a href="https://www.nytimes.com/section/opinion/editorials">Editorials</a></li>
+            <li><a href="https://www.nytimes.com/section/opinion/contributors">Op-Ed Contributors</a></li>
+            <li><a href="https://www.nytimes.com/section/opinion/letters">Letters</a></li>
+            <li><a href="https://www.nytimes.com/section/opinion/sunday">Sunday Review</a></li>
+            <li><a href="https://www.nytimes.com/video/opinion">Video: Opinion</a></li>
+          </ul>
+        </section>
+        <section id="foot3">
+          <ul>
+            <li class="bold">ARTS</li>
+            <li><a href="https://www.nytimes.com/section/arts">Today's Arts</a></li>
+            <li><a href="https://www.nytimes.com/section/arts/design">Art & Design</a></li>
+            <li><a href="https://www.nytimes.com/section/books">Books</a></li>
+            <li><a href="https://www.nytimes.com/section/arts/dance">Dance</a></li>
+            <li><a href="https://www.nytimes.com/section/movies">Movies</a></li>
+            <li><a href="https://www.nytimes.com/section/arts/music">Music</a></li>
+            <li><a href="https://www.nytimes.com/spotlight/pop-culture">Pop Culture</a></li>
+            <li><a href="https://www.nytimes.com/section/arts/television">Television</a></li>
+            <li><a href="https://www.nytimes.com/section/theater">Theater</a></li>
+            <li><a href="https://www.nytimes.com/video/arts">Video: Arts</a></li>          
+          </ul>
+        </section>
+        <section id="foot4">
+          <ul>
+            <li class="bold">LIVING</li>
+            <li><a href="https://www.nytimes.com/section/automobiles">Automobiles</a></li>
+            <li><a href="https://www.nytimes.com/crosswords">Crossword</a></li>
+            <li><a href="https://www.nytimes.com/section/education">Education</a></li>
+            <li><a href="https://www.nytimes.com/section/food">Food</a></li>
+            <li><a href="https://www.nytimes.com/section/health">Health</a></li>
+            <li><a href="https://www.nytimes.com/section/jobs">Jobs</a></li>
+            <li><a href="https://www.nytimes.com/section/fashion/weddings">Love</a></li>
+            <li><a href="https://www.nytimes.com/section/magazine">Magazine</a></li>
+            <li><a href="https://www.nytimes.com/section/parenting">Parenting</a></li>
+            <li><a href="https://www.nytimes.com/section/realestate">Real Estate</a></li>
+            <li><a href="https://cooking.nytimes.com/">Recipes</a></li>
+            <li><a href="https://www.nytimes.com/section/style">Style</a></li>
+            <li><a href="https://www.nytimes.com/section/t-magazine">T Magazine</a></li>
+            <li><a href="https://www.nytimes.com/section/travel">Travel</a></li>
+          </ul>
+        </section>
+        <section id="foot5">
+          <ul>
+            <li class="bold">MORE</li>
+            <li><a href="https://www.nytimes.com/section/reader-center">Reader Center</a></li>
+            <li><a href="https://www.nytimes.com/wirecutter/">Wirecutter</a></li>
+            <li><a href="https://timesevents.nytimes.com/">Live Events</a></li>
+            <li><a href="https://www.nytimes.com/section/learning">The Learning Network</a></li>
+            <li><a href="http://www.nytimes.com/marketing/tools-and-services">Tools & Services</a></li>
+            <li><a href="https://www.nytimes.com/spotlight/arts-listings">N.Y.C. Events Guide</a></li>
+            <li><a href="https://www.nytimes.com/section/multimedia">Multimedia</a></li>
+            <li><a href="https://www.nytimes.com/section/lens">Photography</a></li>
+            <li><a href="https://www.nytimes.com/video">Video</a></li>
+            <li><a href="https://www.nytimes.com/newsletters">Newsletters</a></li>
+            <li><a href="https://timesmachine.nytimes.com/browser">TimesMachine</a></li>
+            <li><a href="https://store.nytimes.com/">NYT Store</a></li>
+            <li><a href="https://www.nytimes.com/times-journeys">Times Journeys</a></li>
+            <li><a href="https://account.nytimes.com/">Manage My Account</a></li>
+          </ul>
+        </section>
+        <section id="foot6">
+          <ul>
+            <li class="bold">SUBSCRIBE</li>
+            <li class="bold"><a href="https://www.nytimes.com/hdleftnav"><img class="sublogos" src="assets/home-delivery.png">Home Delivery</a></li>
+            <li class="bold"><a href="https://www.nytimes.com/digitalleftnav"><img class="sublogos" src="assets/favicon.png">Digital Subscriptions</a></li>
+            <li class="bold"><a href="https://www.nytimes.com/subscription/crosswords"><img class="sublogos" src="assets/crossword (1).png">Crossword</a></li>
+            <li class="bold"><a href="https://www.nytimes.com/subscription/cooking.html"><img class="sublogos" src="assets/cooking.png">Cooking</a></li>
+            <li><a href="https://www.nytimes.com/newsletters">Email Newsletters</a></li>
+            <li><a href="https://www.nytimes.com/corporateleftnav">Corporate Subscriptions</a></li>
+            <li><a href="https://www.nytimes.com/educationleftnav">Education Rate</a></li>
+            <hr>
+            <li><a href="http://www.nytimes.com/services/mobile/index.html">Mobile Applications</a></li>
+            <li><a href="http://eedition.nytimes.com/cgi-bin/signup.cgi?cc=37FYY">Replica Edition</a></li>
+            <li><a href="https://www.nytimes.com/es/">Español</a></li>
+            <li><a href="https://cn.nytimes.com/">中文网</a></li>
+          </ul>
+        </section>
+      </div>
+      <hr>
+      <div id="footerlinks">
+        <ul id="ulfl">
+          <li><a href="https://help.nytimes.com/hc/en-us/articles/115014792127-Copyright-notice">© 2020 The New York Times Company</a></li>
+          <li><a href="https://www.nytco.com/">NYTCo</a></li>
+          <li><a href="https://help.nytimes.com/hc/en-us/articles/115015385887-Contact-Us">Contact Us</a></li>
+          <li><a href="https://www.nytco.com/careers/">Work with us</a></li>
+          <li><a href="https://nytmediakit.com/">Advertise</a></li>
+          <li><a href="http://www.tbrandstudio.com/">T Brand Studio</a></li>
+          <li><a href="https://help.nytimes.com/hc/en-us/articles/115014892108-Privacy-policy">Your Ad Choices</a></li>
+          <li><a href="https://help.nytimes.com/hc/en-us/articles/115014892108-Privacy-policy">Privacy</a></li>
+          <li><a href="https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-service">Terms of Service</a></li>
+          <li><a href="https://help.nytimes.com/hc/en-us/articles/115014893968-Terms-of-sale">Terms of Sale</a></li>
+          <li><a href="https://spiderbites.nytimes.com/">Site Map</a></li>
+          <li><a href="https://help.nytimes.com/hc/en-us">Help</a></li>
+          <li><a href="https://www.nytimes.com/subscription?campaignId=37WXW">Subscriptions</a></li>     
+        </ul>
+      </div>
+    </div>
   </body>
-  <div>
-    <hr>
-    <div id="footlogohome">
-      <div id="flh1">
-        <a href="https://www.nytimes.com/">
-          <img id="lastlogo" src="assets/new_york-times.png">
-        </a>  
-      </div>
-      <div id="flh2">
-        <a id="gohome" href="https://www.nytimes.com/">Go to Home Page >></a>
-      </div>
-    </div>
-    <div id="footergrid">
-      <section id="foot1">
-        <ul>
-          <li class="bold">NEWS</li>
-          <li><a href="https://www.nytimes.com/">Home Page</a></li>
-          <li><a href="https://www.nytimes.com/section/world">World</a></li>
-          <li><a href="https://www.nytimes.com/section/us">U.S.</a></li>
-          <li><a href="https://www.nytimes.com/section/politics">Politics</a></li>
-          <li><a href="https://www.nytimes.com/news-event/2020-election">Election 2020</a></li>
-          <li><a href="https://www.nytimes.com/section/nyregion">New York</a></li>
-          <li><a href="https://www.nytimes.com/section/business">Business</a></li>
-          <li><a href="https://www.nytimes.com/section/technology">Tech</a></li>
-          <li><a href="https://www.nytimes.com/section/science">Science</a></li>
-          <li><a href="https://www.nytimes.com/section/sports">Sports</a></li>
-          <li><a href="https://www.nytimes.com/section/obituaries">Obituaries</a></li>
-          <li><a href="https://www.nytimes.com/section/todayspaper">Today's Paper</a></li>
-          <li><a href="https://www.nytimes.com/section/corrections">Corrections</a></li>          
-        </ul>
-      </section>
-      <section id="foot2">
-        <ul>
-          <li class="bold">OPINION</li>
-          <li><a href="https://www.nytimes.com/section/opinion">Today's Opinion</a></li>
-          <li><a href="https://www.nytimes.com/section/opinion/columnists">Op-Ed Columnists</a></li>
-          <li><a href="https://www.nytimes.com/section/opinion/editorials">Editorials</a></li>
-          <li><a href="https://www.nytimes.com/section/opinion/contributors">Op-Ed Contributors</a></li>
-          <li><a href="https://www.nytimes.com/section/opinion/letters">Letters</a></li>
-          <li><a href="https://www.nytimes.com/section/opinion/sunday">Sunday Review</a></li>
-          <li><a href="https://www.nytimes.com/video/opinion">Video: Opinion</a></li>
-        </ul>
-      </section>
-      <section id="foot3">
-        <ul>
-          <li class="bold">ARTS</li>
-          <li><a href="https://www.nytimes.com/section/arts">Today's Arts</a></li>
-          <li><a href="https://www.nytimes.com/section/arts/design">Art & Design</a></li>
-          <li><a href="https://www.nytimes.com/section/books">Books</a></li>
-          <li><a href="https://www.nytimes.com/section/arts/dance">Dance</a></li>
-          <li><a href="https://www.nytimes.com/section/movies">Movies</a></li>
-          <li><a href="https://www.nytimes.com/section/arts/music">Music</a></li>
-          <li><a href="https://www.nytimes.com/spotlight/pop-culture">Pop Culture</a></li>
-          <li><a href="https://www.nytimes.com/section/arts/television">Television</a></li>
-          <li><a href="https://www.nytimes.com/section/theater">Theater</a></li>
-          <li><a href="https://www.nytimes.com/video/arts">Video: Arts</a></li>          
-        </ul>
-      </section>
-      <section id="foot4">
-        <ul>
-          <li class="bold">LIVING</li>
-          <li><a href="https://www.nytimes.com/section/automobiles">Automobiles</a></li>
-          <li><a href="https://www.nytimes.com/crosswords">Crossword</a></li>
-          <li><a href="https://www.nytimes.com/section/education">Education</a></li>
-          <li><a href="https://www.nytimes.com/section/food">Food</a></li>
-          <li><a href="https://www.nytimes.com/section/health">Health</a></li>
-          <li><a href="https://www.nytimes.com/section/jobs">Jobs</a></li>
-          <li><a href="https://www.nytimes.com/section/fashion/weddings">Love</a></li>
-          <li><a href="https://www.nytimes.com/section/magazine">Magazine</a></li>
-          <li><a href="https://www.nytimes.com/section/parenting">Parenting</a></li>
-          <li><a href="https://www.nytimes.com/section/realestate">Real Estate</a></li>
-          <li><a href="https://cooking.nytimes.com/">Recipes</a></li>
-          <li><a href="https://www.nytimes.com/section/style">Style</a></li>
-          <li><a href="https://www.nytimes.com/section/t-magazine">T Magazine</a></li>
-          <li><a href="https://www.nytimes.com/section/travel">Travel</a></li>
-        </ul>
-      </section>
-      <section id="foot5">
-        <ul>
-          <li class="bold">MORE</li>
-          <li><a href="https://www.nytimes.com/section/reader-center">Reader Center</a></li>
-          <li><a href="https://www.nytimes.com/wirecutter/">Wirecutter</a></li>
-          <li><a href="https://timesevents.nytimes.com/">Live Events</a></li>
-          <li><a href="https://www.nytimes.com/section/learning">The Learning Network</a></li>
-          <li><a href="http://www.nytimes.com/marketing/tools-and-services">Tools & Services</a></li>
-          <li><a href="https://www.nytimes.com/spotlight/arts-listings">N.Y.C. Events Guide</a></li>
-          <li><a href="https://www.nytimes.com/section/multimedia">Multimedia</a></li>
-          <li><a href="https://www.nytimes.com/section/lens">Photography</a></li>
-          <li><a href="https://www.nytimes.com/video">Video</a></li>
-          <li><a href="https://www.nytimes.com/newsletters">Newsletters</a></li>
-          <li><a href="https://timesmachine.nytimes.com/browser">TimesMachine</a></li>
-          <li><a href="https://store.nytimes.com/">NYT Store</a></li>
-          <li><a href="https://www.nytimes.com/times-journeys">Times Journeys</a></li>
-          <li><a href="https://account.nytimes.com/">Manage My Account</a></li>
-        </ul>
-      </section>
-      <section id="foot6">
-        <ul>
-          <li class="bold">SUBSCRIBE</li>
-          <li class="bold"><a href="https://www.nytimes.com/hdleftnav"><img class="sublogos" src="assets/home-delivery.png">Home Delivery</a></li>
-          <li class="bold"><a href="https://www.nytimes.com/digitalleftnav"><img class="sublogos" src="assets/favicon.png">Digital Subscriptions</a></li>
-          <li class="bold"><a href="https://www.nytimes.com/subscription/crosswords"><img class="sublogos" src="assets/crossword (1).png">Crossword</a></li>
-          <li class="bold"><a href="https://www.nytimes.com/subscription/cooking.html"><img class="sublogos" src="assets/cooking.png">Cooking</a></li>
-          <li><a href="https://www.nytimes.com/newsletters">Email Newsletters</a></li>
-          <li><a href="https://www.nytimes.com/corporateleftnav">Corporate Subscriptions</a></li>
-          <li><a href="https://www.nytimes.com/educationleftnav">Education Rate</a></li>
-          <hr>
-          <li><a href="http://www.nytimes.com/services/mobile/index.html">Mobile Applications</a></li>
-          <li><a href="http://eedition.nytimes.com/cgi-bin/signup.cgi?cc=37FYY">Replica Edition</a></li>
-          <li><a href="https://www.nytimes.com/es/">Español</a></li>
-          <li><a href="https://cn.nytimes.com/">中文网</a></li>
-        </ul>
-      </section>
-    </div>
-    <hr>
-    <div id="footerlinks">
-      <ul id="ulfl">
-        <li><a href="https://help.nytimes.com/hc/en-us/articles/115014792127-Copyright-notice">© 2020 The New York Times Company</a></li>
-        <li><a href="https://www.nytco.com/">NYTCo</a></li>
-        <li><a href="https://help.nytimes.com/hc/en-us/articles/115015385887-Contact-Us">Contact Us</a></li>
-        <li><a href="https://www.nytco.com/careers/">Work with us</a></li>
-        <li><a href="https://nytmediakit.com/">Advertise</a></li>
-        <li><a href="http://www.tbrandstudio.com/">T Brand Studio</a></li>
-        <li><a href="https://help.nytimes.com/hc/en-us/articles/115014892108-Privacy-policy">Your Ad Choices</a></li>
-        <li><a href="https://help.nytimes.com/hc/en-us/articles/115014892108-Privacy-policy">Privacy</a></li>
-        <li><a href="https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-service">Terms of Service</a></li>
-        <li><a href="https://help.nytimes.com/hc/en-us/articles/115014893968-Terms-of-sale">Terms of Sale</a></li>
-        <li><a href="https://spiderbites.nytimes.com/">Site Map</a></li>
-        <li><a href="https://help.nytimes.com/hc/en-us">Help</a></li>
-        <li><a href="https://www.nytimes.com/subscription?campaignId=37WXW">Subscriptions</a></li>     
-      </ul>
-    </div>
-  </div>
-
   <footer id="expand">
     <div id="expandwidth">
       <div id="expand-a">

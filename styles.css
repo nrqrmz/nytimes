@@ -13,8 +13,17 @@ html body div span applet object iframe h1 h2 h3 h4 h5 h6 p blockquote pre a abb
 
 /* HTML5 display-role reset for older browsers */
 
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside, 
+details, 
+figcaption, 
+figure,
+footer, 
+header, 
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -84,7 +93,7 @@ small {
 }
 
 #buttons-navbarcont {
-  width: 300px;
+  width: 400px;
   align-self: center;
 }
 
@@ -340,6 +349,7 @@ header {
   min-height: 100%;
   width: auto; 
   height: auto;
+  border: none;
 }
 
 #lastartlinkscont {
@@ -597,5 +607,4 @@ header {
 .fas_fa-angle-up {
   align-self: center;
   flex: 0 1 auto;
-
 }
