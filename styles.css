@@ -503,6 +503,10 @@ header {
 
 #ulfl {
   padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 100px;
+  padding-left: 100px;
 }
 
 .columnlinks {
@@ -549,13 +553,6 @@ header {
 
 #foot6 {
   grid-column-start: 6;
-}
-
-#ulfl {
-  display: flex;
-  justify-content: space-between;
-  padding-right: 100px;
-  padding-left: 100px;
 }
 
 #expand {
