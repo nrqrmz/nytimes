@@ -65,6 +65,7 @@ small {
   height: 50px;
   display: flex;
   background-color: white;
+  margin-top: -10px;
 }
 
 #header-flexbox {
@@ -607,4 +608,8 @@ header {
 .fas_fa-angle-up {
   align-self: center;
   flex: 0 1 auto;
+}
+
+#version {
+  font-size: 18px;
 }
