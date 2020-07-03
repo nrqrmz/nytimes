@@ -335,12 +335,10 @@ header {
 }
 
 .videochamp {
-  width: 800px; 
+  width: 800px;
   height: 450px;
   border: none;
 }
-
-/*560x315*/
 
 .lastartlinks {
   color: #888;
@@ -367,6 +365,7 @@ header {
     "c b";
   padding-left: 30px;
   padding-right: 30px;
+  grid-gap: 10px;
 }
 
 #gridafterart1 {
