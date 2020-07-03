@@ -350,6 +350,20 @@ header {
   text-decoration: underline;
 }
 
+#gridsocbtn {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+#read615 {
+  grid-column-start: 1;
+}
+
+#socialnextobtn {
+  grid-column-start: 2;
+  text-align: right;
+}
+
 /* Grid after afticle */
 
 .gridlinks {
