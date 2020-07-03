@@ -335,10 +335,12 @@ header {
 }
 
 .videochamp {
-  min-width: 100%;
-  width: auto;
+  width: 800px; 
+  height: 450px;
   border: none;
 }
+
+/*560x315*/
 
 .lastartlinks {
   color: #888;
