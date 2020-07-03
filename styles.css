@@ -61,6 +61,7 @@ small {
   display: flex;
   background-color: white;
   margin-top: -10px;
+  border-bottom: 1px solid #888;
 }
 
 #header-flexbox {
