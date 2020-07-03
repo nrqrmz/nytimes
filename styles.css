@@ -511,46 +511,49 @@ header {
   grid-column-start: 6;
 }
 
-#expand {
-  display: block;
-}
-
 #expandwidth {
+  display: grid;
   height: 50px;
   width: 100%;
   position: fixed;
   bottom: 0;
   background-color: white;
   border-top: 1px solid #333;
-  align-content: center;
-  vertical-align: middle;
+  grid-template-columns: 65% 35%;
+  text-align: center;
 }
 
 #expand-a {
-  height: 100%;
-  width: 65%;
-  float: left;
-  justify-content: center;
-  align-items: center;
-  vertical-align: middle;
-  align-self: center;
-  align-content: center;
+  display: grid;
+  grid-column-start: 1;
 }
 
 #expand-s {
-  width: 35%;
-  margin: 0 30px 0 0;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 35% 65%;
 }
 
-.fas_fa-angle-up {
-  align-self: center;
-  flex: 0 1 auto;
+#expand-p {
+  display: grid;
+  grid-column-start: 1;
 }
+
+#div5 {
+  display: grid;
+  grid-column-start: 2;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.fa-angle-up {
+  display: grid;
+  grid-column-start: 1;
+  position: relative;
+  color: #333;
+  size: 20px;
+  padding: 20px 100px 0px 0px;
+  margin: 0;
+  left: 5px;
+}  
 
 .version {
   font-size: 18px;
