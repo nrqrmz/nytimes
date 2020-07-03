@@ -206,7 +206,7 @@ header {
     "par11 par12 par13 par14"
     "im21 im22 im23 im24"
     "par21 par22 par23 par24";
-    grid-column-gap: 10px;
+  grid-column-gap: 10px;
 }
 
 #inflation {
